@@ -11,7 +11,7 @@ int main()
   int counter = 0;
   int words[MAXLEN] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
   int state = OUT;
-  while ((c = getchar()) != '~')
+  while ((c = getchar()) != EOF)
   {
     if (state == OUT)
     {
